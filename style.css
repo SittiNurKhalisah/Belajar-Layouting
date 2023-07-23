@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    /* border: 1px solid black; */
+    font-family: 'poppins';
+
+
+}
+
+:root{
+    --secondbackground:rgb(146, 146, 219)
+}
+
+.nav-container{  
+    border-bottom: 3px solid black;
+  
+   
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+
+    
+    
+}
+
+nav .logo{
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: auto;
+    gap: 20px;
+    font-weight: 600;
+
+
+}
+
+nav a {
+    color: blue;
+}
+nav button {
+    padding: 9px 20px;
+    background-color: rgb(184, 184, 202);
+    border-radius: 10px;
+}
+
+.hero-container {
+    padding: 5rem 0;
+    background-color:var( --secondbackground) ;
+   
+    
+}
+
+.hero-container .hero{
+    width: 1280px;
+    background-color: bisque;
+    margin: 0 auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.hero h1{
+    display: flex;
+    justify-content: center;
+    padding:30px;
+}
+
+.hero .cards-group{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 40px 10px;
+    
+    
+}
+
+.cards-group .card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.card button{
+    margin: 20px;
+    padding: 5px 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.card p{
+    padding: 15px 0;
+}
+
+.card img{
+    border-radius: 10px;
+  
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: var( --secondbackground);
+    padding-bottom: 10px;
+}
